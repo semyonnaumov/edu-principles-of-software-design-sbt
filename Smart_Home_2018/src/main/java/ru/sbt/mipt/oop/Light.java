@@ -1,8 +1,6 @@
 package ru.sbt.mipt.oop;
 
-import static ru.sbt.mipt.oop.SensorEventType.LIGHT_ON;
-
-public class Light implements HomeComponent {
+public class Light implements ActionExecutor {
     private boolean isOn;
     private final String id;
 
@@ -24,16 +22,7 @@ public class Light implements HomeComponent {
     }
 
     @Override
-    public void processIncomingEvent(SensorEvent currentEvent, HomeComponent parent) {
-        // check if current light needs to be processed
-        if (id.equals(currentEvent.getObjectId())) {
-            if (currentEvent.getType() == LIGHT_ON) {
-                isOn = true;
-                System.out.println("Light " + id + " in room " + ((Room)parent).getName() + " was turned on.");
-            } else {
-                isOn = false;
-                System.out.println("Light " + id + " in room " + ((Room)parent).getName() + " was turned off.");
-            }
-        }
+    public void executeAction(Action action) {
+        action.execute(this);
     }
 }

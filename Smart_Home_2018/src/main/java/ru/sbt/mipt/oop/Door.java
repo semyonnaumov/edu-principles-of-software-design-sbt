@@ -1,8 +1,6 @@
 package ru.sbt.mipt.oop;
 
-import static ru.sbt.mipt.oop.SensorEventType.DOOR_OPEN;
-
-public class Door implements HomeComponent {
+public class Door implements ActionExecutor {
     private final String id;
     private boolean isOpen;
 
@@ -20,16 +18,7 @@ public class Door implements HomeComponent {
     }
 
     @Override
-    public void processIncomingEvent(SensorEvent currentEvent, HomeComponent parent) {
-        // check if current door needed to be processed
-        if (id.equals(currentEvent.getObjectId())) {
-            if (currentEvent.getType() == DOOR_OPEN) {
-                isOpen = true;
-                System.out.println("Door " + id + " in room " + ((Room)parent).getName() + " was opened.");
-            } else {
-                isOpen = false;
-                System.out.println("Door " + id + " in room " + ((Room)parent).getName() + " was closed.");
-            }
-        }
+    public void executeAction(Action action) {
+        action.execute(this);
     }
 }

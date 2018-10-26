@@ -80,5 +80,9 @@
       ],
       "name": "hall"
     }
-  ]
-}
+  ],
+  "alarm":
+      {
+        "activationCode": 12345
+      }
+  }

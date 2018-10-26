@@ -3,8 +3,9 @@ package ru.sbt.mipt.oop;
 import java.util.ArrayList;
 import java.util.Collection;
 
-public class SmartHome implements HomeComponent {
-    Collection<Room> rooms;
+public class SmartHome implements ActionExecutor {
+    private Collection<Room> rooms;
+    private Alarm alarm;
 
     public SmartHome() {
         rooms = new ArrayList<>();
@@ -23,10 +24,16 @@ public class SmartHome implements HomeComponent {
     }
 
     @Override
-    public void processIncomingEvent(SensorEvent currentEvent, HomeComponent parent) {
-        // Call this method in all nested HomeComponents
+    public void executeAction(Action action) {
         for (Room room : rooms) {
-            room.processIncomingEvent(currentEvent, this);
+            room.executeAction(action);
         }
+    }
+
+    @Override
+    public String toString() {
+        return "SmartHome{" +
+                "alarm=" + alarm +
+                '}';
     }
 }
