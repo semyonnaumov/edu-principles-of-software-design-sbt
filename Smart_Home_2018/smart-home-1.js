@@ -82,7 +82,7 @@
     }
   ],
   "alarm":
-      {
-        "activationCode": 12345
-      }
-  }
+    {
+      "activationCode": 12345
+    }
+}
