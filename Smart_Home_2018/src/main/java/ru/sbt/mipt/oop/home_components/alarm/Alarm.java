@@ -3,12 +3,14 @@ package ru.sbt.mipt.oop.home_components.alarm;
 import ru.sbt.mipt.oop.action_utilities.Action;
 import ru.sbt.mipt.oop.action_utilities.ActionExecutor;
 
+// Add unite tests!
 public class Alarm implements ActionExecutor {
     private final Integer activationCode;
-    private AlarmState state = new AlarmDeactivated(this);
+    private AlarmState state;
 
     public Alarm(Integer activationCode) {
         this.activationCode = activationCode;
+        this.state = new AlarmDeactivated(this);
     }
 
     public void activateAlarm(Integer activationCode) {

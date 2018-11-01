@@ -27,6 +27,10 @@ public class SmartHome implements ActionExecutor {
         return rooms;
     }
 
+    public void setAlarm(Alarm alarm) {
+        this.alarm = alarm;
+    }
+
     @Override
     public void executeAction(Action action) {
         for (Room room : rooms) {

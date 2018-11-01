@@ -17,4 +17,13 @@ public class AlarmEventProcessor implements EventProcessor {
             smartHome.getAlarm().deactivateAlarm(Integer.parseInt(event.getObjectId()));
         }
     }
+
+    private boolean isAlarmEvent(SensorEvent event) {
+        if ((event.getType() == ALARM_ACTIVATE) || (event.getType() == ALARM_DEACTIVATE)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
+

@@ -4,6 +4,7 @@ import ru.sbt.mipt.oop.event_processors.*;
 import ru.sbt.mipt.oop.event_utilities.RandomSensorEventProvider;
 import ru.sbt.mipt.oop.event_utilities.SensorEventProvider;
 import ru.sbt.mipt.oop.home_components.SmartHome;
+import ru.sbt.mipt.oop.home_components.alarm.Alarm;
 import ru.sbt.mipt.oop.home_utilities.FileSmartHomeLoader;
 import ru.sbt.mipt.oop.home_utilities.HomeEventManager;
 import ru.sbt.mipt.oop.home_utilities.SmartHomeLoader;
@@ -16,6 +17,7 @@ public class Application {
 
     public static void main(String... args) throws IOException {
         SmartHome smartHome = smartHomeLoader.loadSmartHome();
+        smartHome.setAlarm(new Alarm(12345));
         SensorEventProvider sensorEventProvider = new RandomSensorEventProvider();
         HomeEventManager eventManager = new HomeEventManager(smartHome, sensorEventProvider);
         eventManager.registerEventProcessor(new AlarmAwareEventProcessor(new LightsEventProcessor()));

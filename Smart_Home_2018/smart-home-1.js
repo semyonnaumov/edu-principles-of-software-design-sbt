@@ -83,6 +83,7 @@
   ],
   "alarm":
     {
-      "activationCode": 12345
+      "activationCode": null,
+      "state": null
     }
 }

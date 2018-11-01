@@ -7,7 +7,7 @@ public class AlarmDeactivated extends AlarmState {
 
     @Override
     public void activateAlarm(Integer activationCode) {
-        if (activationCode == myAlarm.getActivationCode()) {
+        if (activationCode.equals(myAlarm.getActivationCode())) {
             myAlarm.setState(new AlarmActivated(myAlarm));
         }
     }
