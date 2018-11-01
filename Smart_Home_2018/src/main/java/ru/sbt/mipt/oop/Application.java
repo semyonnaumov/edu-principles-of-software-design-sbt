@@ -1,5 +1,6 @@
 package ru.sbt.mipt.oop;
 
+import com.coolcompany.smarthome.events.SensorEventsManager;
 import ru.sbt.mipt.oop.event_processors.*;
 import ru.sbt.mipt.oop.event_utilities.RandomSensorEventProvider;
 import ru.sbt.mipt.oop.event_utilities.SensorEventProvider;
@@ -19,7 +20,13 @@ public class Application {
         SmartHome smartHome = smartHomeLoader.loadSmartHome();
         smartHome.setAlarm(new Alarm(12345));
         SensorEventProvider sensorEventProvider = new RandomSensorEventProvider();
-        HomeEventManager eventManager = new HomeEventManager(smartHome, sensorEventProvider);
+
+        //Закомментирован старый EventMeneger, добавлен адаптер
+        //HomeEventManager eventManager = new HomeEventManager(smartHome, sensorEventProvider);
+        SensorEventsManager sensorEventsManager = new SensorEventsManager();
+        HomeEventManager eventManager = new CCSensorEventManagerAdapter(smartHome,
+                sensorEventProvider, sensorEventsManager);
+
         eventManager.registerEventProcessor(new AlarmAwareEventProcessor(new LightsEventProcessor()));
         eventManager.registerEventProcessor(new AlarmAwareEventProcessor(new DoorEventProcessor()));
         eventManager.registerEventProcessor(new AlarmAwareEventProcessor(new HallDoorEventProcessor()));

@@ -15,7 +15,7 @@ import java.util.Collection;
  */
 public class HomeEventManager {
     private Collection<EventProcessor> eventProcessors = new ArrayList<EventProcessor>();
-    private SmartHome smartHome;
+    protected SmartHome smartHome;
     private SensorEventProvider sensorEventProvider;
 
     public HomeEventManager(SmartHome smartHome, SensorEventProvider sensorEventProvider){
