@@ -10,20 +10,37 @@ import ru.sbt.mipt.oop.home_utilities.FileSmartHomeLoader;
 import ru.sbt.mipt.oop.home_utilities.HomeEventManager;
 import ru.sbt.mipt.oop.home_utilities.SmartHomeLoader;
 
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
 import java.io.IOException;
 
 public class Application {
 
-    private static SmartHomeLoader smartHomeLoader = new FileSmartHomeLoader();
+    private static SmartHomeLoader smartHomeLoader;
+    private static SensorEventsManager sensorEventsManager;
+
+    public Application(SmartHomeLoader smartHomeLoader, SensorEventsManager sensorEventsManager) {
+        this.smartHomeLoader = smartHomeLoader;
+        this.sensorEventsManager = sensorEventsManager;
+    }
 
     public static void main(String... args) throws IOException {
+
+        // Uncomment for spring usage:
+        ApplicationContext ctx = new ClassPathXmlApplicationContext("spring.xml");
+        SensorEventsManager sensorEventsManager = (SensorEventsManager) ctx.getBean("sensorEventsManager");
+
         SmartHome smartHome = smartHomeLoader.loadSmartHome();
         smartHome.setAlarm(new Alarm(12345));
         SensorEventProvider sensorEventProvider = new RandomSensorEventProvider();
 
-        //Закомментирован старый EventMeneger, добавлен адаптер
+        // Старый EventManager, до добавления адаптера
         //HomeEventManager eventManager = new HomeEventManager(smartHome, sensorEventProvider);
-        SensorEventsManager sensorEventsManager = new SensorEventsManager();
+
+        // Закомментирован адаптер, используемый до spring
+        //SensorEventsManager sensorEventsManager = new SensorEventsManager();
+
         HomeEventManager eventManager = new CCSensorEventManagerAdapter(smartHome,
                 sensorEventProvider, sensorEventsManager);
 
