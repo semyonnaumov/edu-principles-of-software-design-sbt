@@ -6,8 +6,8 @@ public class Main {
         Shape rectangle = new Rectangle(20, 10);
         Shape square = new Square(15);
 
-        System.out.println(circle.calculateArea());
-        System.out.println(rectangle.calculateArea());
-        System.out.println(square.calculateArea());
+        System.out.println(circle.getArea());
+        System.out.println(rectangle.getArea());
+        System.out.println(square.getArea());
     }
 }

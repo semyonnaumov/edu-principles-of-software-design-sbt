@@ -7,14 +7,14 @@
     <groupId>JUnit_Shapes</groupId>
     <artifactId>JUnit_Shapes</artifactId>
     <version>1.0-SNAPSHOT</version>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>RELEASE</version>
+            <version>4.12</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
-
 
 </project>
