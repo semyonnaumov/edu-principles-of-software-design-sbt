@@ -1,7 +1,7 @@
 package ru.sbt.mipt.oop.home_components;
 
-import ru.sbt.mipt.oop.action_utilities.Action;
-import ru.sbt.mipt.oop.action_utilities.ActionExecutor;
+import ru.sbt.mipt.oop.action.Action;
+import ru.sbt.mipt.oop.action.ActionExecutor;
 
 import java.util.Collection;
 

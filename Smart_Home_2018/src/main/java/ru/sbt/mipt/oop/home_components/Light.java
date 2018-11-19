@@ -1,6 +1,6 @@
 package ru.sbt.mipt.oop.home_components;
 
-import ru.sbt.mipt.oop.action_utilities.*;
+import ru.sbt.mipt.oop.action.*;
 
 public class Light implements ActionExecutor {
     private boolean isOn;

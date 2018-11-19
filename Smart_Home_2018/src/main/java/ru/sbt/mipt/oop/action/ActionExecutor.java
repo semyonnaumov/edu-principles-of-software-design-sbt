@@ -1,4 +1,4 @@
-package ru.sbt.mipt.oop.action_utilities;
+package ru.sbt.mipt.oop.action;
 
 public interface ActionExecutor {
     void executeAction(Action action);
