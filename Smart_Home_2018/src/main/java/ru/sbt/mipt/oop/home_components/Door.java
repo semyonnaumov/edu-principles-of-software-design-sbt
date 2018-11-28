@@ -24,4 +24,26 @@ public class Door implements ActionExecutor {
     public void executeAction(Action action) {
         action.execute(this);
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (this == object) {
+            return true;
+        }
+        if (object instanceof Door) {
+            Door otherDoor = (Door) object;
+            if (otherDoor.isOpen == this.isOpen && otherDoor.id.equals(this.id)) {
+                return true;
+            }
+        }
+        return  false;
+    }
+
+    @Override
+    public String toString() {
+        return "Door{" +
+                "id='" + id + '\'' +
+                ", isOpen=" + isOpen +
+                '}';
+    }
 }

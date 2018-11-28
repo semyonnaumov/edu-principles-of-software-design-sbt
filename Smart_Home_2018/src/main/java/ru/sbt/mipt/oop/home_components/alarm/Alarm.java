@@ -3,7 +3,7 @@ package ru.sbt.mipt.oop.home_components.alarm;
 import ru.sbt.mipt.oop.action.Action;
 import ru.sbt.mipt.oop.action.ActionExecutor;
 
-// Add unite tests!
+// TODO: Add tests
 public class Alarm implements ActionExecutor {
     private final Integer activationCode;
     private AlarmState state;

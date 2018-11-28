@@ -27,4 +27,26 @@ public class Light implements ActionExecutor {
     public void executeAction(Action action) {
         action.execute(this);
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (this == object) {
+            return true;
+        }
+        if (object instanceof Light) {
+            Light otherLight = (Light) object;
+            if (otherLight.isOn == this.isOn && otherLight.id.equals(this.id)) {
+                return true;
+            }
+        }
+        return  false;
+    }
+
+    @Override
+    public String toString() {
+        return "Light{" +
+                "isOn=" + isOn +
+                ", id='" + id + '\'' +
+                '}';
+    }
 }

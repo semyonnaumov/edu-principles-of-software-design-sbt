@@ -2,11 +2,11 @@ package ru.sbt.mipt.oop.ext_lib_adapters;
 
 import com.coolcompany.smarthome.events.CCSensorEvent;
 import com.coolcompany.smarthome.events.EventHandler;
-import ru.sbt.mipt.oop.event_processors.EventProcessor;
-import ru.sbt.mipt.oop.event_utilities.SensorEvent;
+import ru.sbt.mipt.oop.event.processors.EventProcessor;
+import ru.sbt.mipt.oop.event.utilities.SensorEvent;
 import ru.sbt.mipt.oop.home_components.SmartHome;
 
-import static ru.sbt.mipt.oop.event_utilities.SensorEventType.*;
+import static ru.sbt.mipt.oop.event.utilities.SensorEventType.*;
 
 public class EventProcessorAdapter implements EventHandler {
     SmartHome smartHome;
@@ -23,7 +23,7 @@ public class EventProcessorAdapter implements EventHandler {
         if (sensorEvent == null) {
             // Minor bug!
             // Will print the same message n times where n = # of registered event processors
-            System.out.println("Cannot convert API's event to native type of event");
+            System.out.println("Cannot convert current API event to native type of event");
         } else {
             // Minor bug!
             // Will print the same message n times where n = # of registered event processors

@@ -33,19 +33,39 @@ public class SmartHome implements ActionExecutor {
 
     @Override
     public void executeAction(Action action) {
+        action.execute(this);
         for (Room room : rooms) {
             room.executeAction(action);
         }
     }
 
     @Override
-    public String toString() {
-        return "SmartHome{" +
-                "alarm=" + alarm +
-                '}';
+    public boolean equals(Object object) {
+        if (this == object) {
+            return true;
+        }
+        if (object instanceof SmartHome) {
+            SmartHome other = (SmartHome) object;
+            Collection<Room> otherRooms = other.getRooms();
+            for (Room otherRoom : otherRooms) {
+                if (!rooms.contains(otherRoom)) {
+                    return false;
+                }
+            }
+            return true;
+        }
+        return  false;
     }
 
     public Alarm getAlarm() {
         return alarm;
+    }
+
+    @Override
+    public String toString() {
+        return "SmartHome{" +
+                "rooms=" + rooms +
+                ", alarm=" + alarm +
+                '}';
     }
 }

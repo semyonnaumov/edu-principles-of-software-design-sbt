@@ -1,10 +1,10 @@
 package ru.sbt.mipt.oop;
 
-import ru.sbt.mipt.oop.event_processors.*;
-import ru.sbt.mipt.oop.event_utilities.*;
+import ru.sbt.mipt.oop.event.processors.*;
+import ru.sbt.mipt.oop.event.utilities.EventManager;
 import ru.sbt.mipt.oop.home_components.*;
 import ru.sbt.mipt.oop.home_components.alarm.Alarm;
-import ru.sbt.mipt.oop.home_utilities.*;
+import ru.sbt.mipt.oop.loaders.*;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

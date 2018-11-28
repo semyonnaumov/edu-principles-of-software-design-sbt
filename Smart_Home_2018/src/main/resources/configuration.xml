@@ -10,14 +10,14 @@
         <constructor-arg ref="ccEventManager"/>
     </bean>
 
-    <bean name="smartHomeLoader" class="ru.sbt.mipt.oop.home_utilities.FileSmartHomeLoader"/>
+    <bean name="smartHomeLoader" class="ru.sbt.mipt.oop.loaders.FileSmartHomeLoader"/>
 
     <!--Default event manager-->
-    <bean name="homeEventManager" class="ru.sbt.mipt.oop.event_utilities.HomeEventManager">
+    <bean name="homeEventManager" class="ru.sbt.mipt.oop.event.utilities.HomeEventManager">
         <constructor-arg ref="sensorEventProvider"/>
     </bean>
 
-    <bean name="sensorEventProvider" class="ru.sbt.mipt.oop.event_utilities.RandomSensorEventProvider"/>
+    <bean name="sensorEventProvider" class="ru.sbt.mipt.oop.event.utilities.RandomSensorEventProvider"/>
 
     <!--Adapter to event manager from external library-->
     <bean name="ccEventManager" class="ru.sbt.mipt.oop.ext_lib_adapters.CCSensorEventManagerAdapter">

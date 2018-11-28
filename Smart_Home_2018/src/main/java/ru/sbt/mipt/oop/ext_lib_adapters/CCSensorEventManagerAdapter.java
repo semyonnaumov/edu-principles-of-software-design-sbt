@@ -1,8 +1,8 @@
 package ru.sbt.mipt.oop.ext_lib_adapters;
 
 import com.coolcompany.smarthome.events.*;
-import ru.sbt.mipt.oop.event_processors.EventProcessor;
-import ru.sbt.mipt.oop.event_utilities.EventManager;
+import ru.sbt.mipt.oop.event.processors.EventProcessor;
+import ru.sbt.mipt.oop.event.utilities.EventManager;
 
 public class CCSensorEventManagerAdapter extends EventManager {
     private SensorEventsManager sensorEventsManager;
