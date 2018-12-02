@@ -3,14 +3,14 @@ package ru.sbt.mipt.oop.home_components.alarm;
 import ru.sbt.mipt.oop.action.Action;
 import ru.sbt.mipt.oop.action.ActionExecutor;
 
-// TODO: Add tests
+// todo: add tests
 public class Alarm implements ActionExecutor {
     private final Integer activationCode;
     private AlarmState state;
 
     public Alarm(Integer activationCode) {
         this.activationCode = activationCode;
-        this.state = new AlarmDeactivated(this);
+        this.state = new AlarmDeactivatedState(this);
     }
 
     public void activateAlarm(Integer activationCode) {
@@ -51,6 +51,6 @@ public class Alarm implements ActionExecutor {
     }
 
     public boolean isDeactivated() {
-        return state instanceof AlarmDeactivated;
+        return state instanceof AlarmDeactivatedState;
     }
 }

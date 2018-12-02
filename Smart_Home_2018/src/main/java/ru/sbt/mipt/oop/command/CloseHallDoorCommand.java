@@ -14,6 +14,7 @@ public class CloseHallDoorCommand implements Command {
 
     @Override
     public boolean execute() {
+
         smartHome.executeAction(object -> {
             if (object instanceof Room) {
                 Room room = (Room) object;
@@ -24,5 +25,10 @@ public class CloseHallDoorCommand implements Command {
         });
         smartHome.executeAction(new LightsOffAction());
         return true;
+    }
+
+    @Override
+    public CommandType getType() {
+        return CommandType.CLOSE_HALL_DOOR;
     }
 }

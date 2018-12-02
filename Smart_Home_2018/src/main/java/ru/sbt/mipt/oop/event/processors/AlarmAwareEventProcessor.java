@@ -13,9 +13,11 @@ public class AlarmAwareEventProcessor implements EventProcessor {
 
     @Override
     public void processEvent(SmartHome smartHome, SensorEvent event) {
-        if (!(smartHome.getAlarm().isDeactivated())) {
-            if (isDoorOrLightEvent(event)) {
-                smartHome.getAlarm().invokeAlert();
+        if(smartHome.getAlarm() != null) {
+            if (!(smartHome.getAlarm().isDeactivated())) {
+                if (isDoorOrLightEvent(event)) {
+                    smartHome.getAlarm().invokeAlert();
+                }
             }
         } else {
             wrappedEventProcessor.processEvent(smartHome, event);

@@ -7,6 +7,14 @@ public class Button {
     private final String iD;
     private Command command;
 
+    public String getiD() {
+        return iD;
+    }
+
+    public Command getCommand() {
+        return command;
+    }
+
     public Button(String iD, Command command) {
         this.iD = iD;
         this.command = command;

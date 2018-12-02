@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-10.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\Naumov\AppData\Local\Temp\surefire1088653299504863188\surefirebooter1438027783859317032.jar C:\Users\Naumov\AppData\Local\Temp\surefire1088653299504863188 2018-11-22T17-18-58_625-jvmRun1 surefire16743442306947368261tmp surefire_015416374361681520975tmp"/>
+    <property name="sun.java.command" value="C:\Users\Naumov\AppData\Local\Temp\surefire2856272967306725420\surefirebooter4310716432911065446.jar C:\Users\Naumov\AppData\Local\Temp\surefire2856272967306725420 2018-12-02T22-56-54_764-jvmRun1 surefire16519044401146540643tmp surefire_02659031789372773554tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\target\test-classes;C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\target\classes;C:\Users\Naumov\.m2\repository\junit\junit\4.8.2\junit-4.8.2.jar;C:\Users\Naumov\.m2\repository\com\google\code\gson\gson\2.6.2\gson-2.6.2.jar;C:\Users\Naumov\.m2\repository\org\springframework\spring-context\4.1.5.RELEASE\spring-context-4.1.5.RELEASE.jar;C:\Users\Naumov\.m2\repository\org\springframework\spring-aop\4.1.5.RELEASE\spring-aop-4.1.5.RELEASE.jar;C:\Users\Naumov\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Naumov\.m2\repository\org\springframework\spring-beans\4.1.5.RELEASE\spring-beans-4.1.5.RELEASE.jar;C:\Users\Naumov\.m2\repository\org\springframework\spring-core\4.1.5.RELEASE\spring-core-4.1.5.RELEASE.jar;C:\Users\Naumov\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Naumov\.m2\repository\org\springframework\spring-expression\4.1.5.RELEASE\spring-expression-4.1.5.RELEASE.jar;C:\Users\Naumov\.m2\repository\org\springframework\spring-context-support\4.1.5.RELEASE\spring-context-support-4.1.5.RELEASE.jar;C:\Users\Naumov\.m2\repository\org\springframework\spring-tx\4.1.5.RELEASE\spring-tx-4.1.5.RELEASE.jar;C:\Users\Naumov\.m2\repository\org\slf4j\jcl-over-slf4j\1.5.8\jcl-over-slf4j-1.5.8.jar;C:\Users\Naumov\.m2\repository\org\slf4j\slf4j-api\1.5.8\slf4j-api-1.5.8.jar;C:\Users\Naumov\.m2\repository\org\slf4j\slf4j-log4j12\1.5.8\slf4j-log4j12-1.5.8.jar;C:\Users\Naumov\.m2\repository\log4j\log4j\1.2.14\log4j-1.2.14.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Naumov\AppData\Local\Temp\surefire1088653299504863188\surefirebooter1438027783859317032.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Naumov\AppData\Local\Temp\surefire2856272967306725420\surefirebooter4310716432911065446.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="10.0.2+13"/>

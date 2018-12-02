@@ -2,14 +2,18 @@ package ru.sbt.mipt.oop.home_components;
 
 import ru.sbt.mipt.oop.action.Action;
 import ru.sbt.mipt.oop.action.ActionExecutor;
+import ru.sbt.mipt.oop.controls.remote.RemoteControl;
 import ru.sbt.mipt.oop.home_components.alarm.Alarm;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
 
 public class SmartHome implements ActionExecutor {
     private Collection<Room> rooms;
-    private Alarm alarm;
+    private Alarm alarm = null;
+    private Map<Integer, RemoteControl> remoteControls = null;
 
     public SmartHome() {
         rooms = new ArrayList<>();
@@ -29,6 +33,20 @@ public class SmartHome implements ActionExecutor {
 
     public void setAlarm(Alarm alarm) {
         this.alarm = alarm;
+    }
+
+    public void addRemoteControl(RemoteControl rc) {
+        if (remoteControls == null) {
+            remoteControls = new HashMap<>();
+        }
+        remoteControls.put(rc.getID(), rc);
+    }
+
+    public void deleteRemoteControl(String rcID) {
+        if (remoteControls == null) {
+            return;
+        }
+        remoteControls.remove(rcID);
     }
 
     @Override
@@ -67,5 +85,9 @@ public class SmartHome implements ActionExecutor {
                 "rooms=" + rooms +
                 ", alarm=" + alarm +
                 '}';
+    }
+
+    public Map<Integer, RemoteControl> getRemoteControls() {
+        return remoteControls;
     }
 }

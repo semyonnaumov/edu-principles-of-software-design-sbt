@@ -5,4 +5,9 @@ public class EmptyCommand implements Command {
     public boolean execute() {
         return true;
     }
+
+    @Override
+    public CommandType getType() {
+        return CommandType.EMPTY;
+    }
 }

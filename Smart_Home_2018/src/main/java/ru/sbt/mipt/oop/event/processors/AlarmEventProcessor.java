@@ -9,6 +9,9 @@ import static ru.sbt.mipt.oop.event.utilities.SensorEventType.ALARM_DEACTIVATE;
 public class AlarmEventProcessor implements EventProcessor {
     @Override
     public void processEvent(SmartHome smartHome, SensorEvent event) {
+        if (smartHome.getAlarm() == null) {
+            return;
+        }
         if (event.getType() == ALARM_ACTIVATE) {
             smartHome.getAlarm().activateAlarm(Integer.parseInt(event.getObjectId()));
         }

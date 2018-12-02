@@ -8,6 +8,7 @@
     <bean name="application" class="ru.sbt.mipt.oop.Application">
         <constructor-arg ref="smartHomeLoader"/>
         <constructor-arg ref="ccEventManager"/>
+        <constructor-arg ref="remoteControlRegistry"/>
     </bean>
 
     <bean name="smartHomeLoader" class="ru.sbt.mipt.oop.loaders.FileSmartHomeLoader"/>
@@ -26,5 +27,7 @@
 
     <!--Uncompatible external event manager-->
     <bean name="ccSensorEventManager" class="com.coolcompany.smarthome.events.SensorEventsManager"/>
+
+    <bean name="remoteControlRegistry" class="com.coolcompany.smarthome.remote_control.RemoteControlRegistry"/>
 
 </beans>

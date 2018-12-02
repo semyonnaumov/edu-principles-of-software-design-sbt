@@ -1,5 +1,9 @@
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\test\java\ru\sbt\mipt\oop\event_processors\EventProcessorTest.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\test\java\ru\sbt\mipt\oop\event_processors\LightsEventProcessorTest.java
+C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\test\java\ru\sbt\mipt\oop\command\CommandTest.java
+C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\test\java\ru\sbt\mipt\oop\command\ActivateAlarmCommandTest.java
 C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\test\java\ru\sbt\mipt\oop\home_components\SmartHomeTest.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\test\java\ru\sbt\mipt\oop\event_processors\HallDoorEventProcessorTest.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\test\java\ru\sbt\mipt\oop\event_processors\DoorEventProcessorTest.java
+C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\test\java\ru\sbt\mipt\oop\controls\remote\StandardRemoteControlTest.java
+C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\test\java\ru\sbt\mipt\oop\event\processors\EventProcessorTest.java
+C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\test\java\ru\sbt\mipt\oop\event\utilities\HomeEventManagerTest.java
+C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\test\java\ru\sbt\mipt\oop\event\processors\LightsEventProcessorTest.java
+C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\test\java\ru\sbt\mipt\oop\event\processors\DoorEventProcessorTest.java
+C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\test\java\ru\sbt\mipt\oop\event\processors\HallDoorEventProcessorTest.java

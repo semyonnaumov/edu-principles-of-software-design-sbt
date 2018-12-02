@@ -15,4 +15,9 @@ public class HomeLightsOnCommand implements Command {
         smartHome.executeAction(new LightsOnAction());
         return true;
     }
+
+    @Override
+    public CommandType getType() {
+        return CommandType.HOME_LIGHTS_ON;
+    }
 }

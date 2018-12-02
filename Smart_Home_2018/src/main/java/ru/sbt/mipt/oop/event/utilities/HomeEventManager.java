@@ -5,6 +5,7 @@ import ru.sbt.mipt.oop.event.processors.EventProcessor;
 import java.util.ArrayList;
 import java.util.Collection;
 
+// todo: add tests
 /**
  * Implements pattern "Observer"
  * Contains event listeners aka EventProcessors

@@ -2,10 +2,14 @@ package ru.sbt.mipt.oop.dev;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import ru.sbt.mipt.oop.command.HomeLightsOffCommand;
+import ru.sbt.mipt.oop.controls.remote.RemoteControl;
+import ru.sbt.mipt.oop.controls.remote.StandardRemoteControl;
 import ru.sbt.mipt.oop.home_components.Door;
 import ru.sbt.mipt.oop.home_components.Light;
 import ru.sbt.mipt.oop.home_components.Room;
 import ru.sbt.mipt.oop.home_components.SmartHome;
+import ru.sbt.mipt.oop.home_components.alarm.Alarm;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
@@ -13,6 +17,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Arrays;
+import java.util.List;
 
 public class HomeBuilder {
 
@@ -29,7 +34,17 @@ public class HomeBuilder {
         Room hall = new Room(Arrays.asList(new Light("7", false), new Light("8", false), new Light("9", false)),
                 Arrays.asList(new Door(false, "4")),
                 "hall");
-        SmartHome smartHome = new SmartHome(Arrays.asList(kitchen, bathroom, bedroom, hall));
+
+        List<Room> rooms = Arrays.asList(kitchen, bathroom, bedroom, hall);
+        Alarm alarm = new Alarm(12345);
+        SmartHome smartHome = new SmartHome(rooms);
+
+        //smartHome.setAlarm(alarm);
+        //RemoteControl rc1 = new StandardRemoteControl(1000);
+        //rc1.bindToSmartHome(smartHome);
+        //RemoteControl rc2 = new StandardRemoteControl(2000);
+        //rc2.bindToSmartHome(smartHome);
+
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         String jsonString = gson.toJson(smartHome);
         System.out.println(jsonString);

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: ru.sbt.mipt.oop.controls.remote.StandardRemoteControlTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ru.sbt.mipt.oop.controls.remote.StandardRemoteControlTest

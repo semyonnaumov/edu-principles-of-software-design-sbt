@@ -81,9 +81,5 @@
       "name": "hall"
     }
   ],
-  "alarm":
-    {
-      "activationCode": null,
-      "state": null
-    }
+  "alarm": null
 }

@@ -35,9 +35,5 @@
       "name": "bedroom"
     }
   ],
-  "alarm":
-    {
-      "activationCode": null,
-      "state": null
-    }
+  "alarm": null
 }

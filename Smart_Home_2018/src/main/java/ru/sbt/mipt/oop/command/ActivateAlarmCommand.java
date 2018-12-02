@@ -13,7 +13,15 @@ public class ActivateAlarmCommand implements Command {
 
     @Override
     public boolean execute() {
+        if (smartHome.getAlarm() == null) {
+            return false;
+        }
         smartHome.getAlarm().activateAlarm(activationCode);
         return true;
+    }
+
+    @Override
+    public CommandType getType() {
+        return CommandType.ACTIVATE_ALARM;
     }
 }
