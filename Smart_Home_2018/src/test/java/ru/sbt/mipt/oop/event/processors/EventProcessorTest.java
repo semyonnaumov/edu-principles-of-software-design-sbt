@@ -2,7 +2,7 @@ package ru.sbt.mipt.oop.event.processors;
 
 import org.junit.Before;
 import ru.sbt.mipt.oop.event.utilities.SensorEvent;
-import ru.sbt.mipt.oop.home_components.SmartHome;
+import ru.sbt.mipt.oop.home.component.SmartHome;
 import ru.sbt.mipt.oop.loaders.FileSmartHomeLoader;
 import ru.sbt.mipt.oop.loaders.SmartHomeLoader;
 import java.io.IOException;
@@ -17,7 +17,8 @@ public abstract class EventProcessorTest {
 
     @Before
     public void setUp() throws IOException {
-        SmartHomeLoader smartHomeLoader = new FileSmartHomeLoader("smart-home-test.json");
+        String path = "src/test/resources/smart-home-test.json";
+        SmartHomeLoader smartHomeLoader = new FileSmartHomeLoader(path);
         this.initialSmartHome = smartHomeLoader.loadSmartHome();
         this.smartHome = smartHomeLoader.loadSmartHome();
 

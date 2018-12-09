@@ -1,6 +1,6 @@
 package ru.sbt.mipt.oop.action;
 
-import ru.sbt.mipt.oop.home_components.Door;
+import ru.sbt.mipt.oop.home.component.Door;
 
 public class DoorsCloseAction implements Action {
     @Override

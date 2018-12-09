@@ -1,6 +1,6 @@
 package ru.sbt.mipt.oop.action;
 
-import ru.sbt.mipt.oop.home_components.Light;
+import ru.sbt.mipt.oop.home.component.Light;
 
 public class LightsOffAction implements Action {
     @Override

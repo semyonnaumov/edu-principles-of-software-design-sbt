@@ -1,8 +1,8 @@
 package ru.sbt.mipt.oop.command;
 
-import ru.sbt.mipt.oop.home_components.SmartHome;
-import ru.sbt.mipt.oop.home_components.alarm.Alarm;
-import ru.sbt.mipt.oop.home_components.alarm.AlarmOnAlertState;
+import ru.sbt.mipt.oop.home.component.SmartHome;
+import ru.sbt.mipt.oop.home.component.alarm.Alarm;
+import ru.sbt.mipt.oop.home.component.alarm.AlarmOnAlertState;
 
 public class InvokeAlertAlarmCommand implements Command {
     private SmartHome smartHome;

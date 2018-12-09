@@ -2,7 +2,7 @@ package ru.sbt.mipt.oop.controls.remote;
 
 import org.junit.Before;
 import org.junit.Test;
-import ru.sbt.mipt.oop.home_components.SmartHome;
+import ru.sbt.mipt.oop.home.component.SmartHome;
 import ru.sbt.mipt.oop.loaders.FileSmartHomeLoader;
 import ru.sbt.mipt.oop.loaders.SmartHomeLoader;
 
@@ -18,20 +18,21 @@ public class StandardRemoteControlTest {
 
     @Before
     public void setUp() throws Exception {
-        SmartHomeLoader smartHomeLoader = new FileSmartHomeLoader("smart-home-test.json");
-        SmartHomeLoader lightsOnSmartHomeLoader = new FileSmartHomeLoader("smart-home-test-lights-on.json");
+        String path1 = "src/test/resources/smart-home-test.json";
+        String path2 = "src/test/resources/smart-home-test-lights-on.json";
+
+        SmartHomeLoader smartHomeLoader = new FileSmartHomeLoader(path1);
+        SmartHomeLoader lightsOnSmartHomeLoader = new FileSmartHomeLoader(path2);
         smartHome = smartHomeLoader.loadSmartHome();
         initialSmartHome = smartHomeLoader.loadSmartHome();
         lightsOnSmartHome = lightsOnSmartHomeLoader.loadSmartHome();
-        remoteControl1 = new StandardRemoteControl(0);
-        remoteControl2 = new StandardRemoteControl(1);
+        remoteControl1 = new StandardRemoteControl("0");
+        remoteControl2 = new StandardRemoteControl("1");
     }
 
     @Test
     public void bindToSmartHome() {
         remoteControl1.bindToSmartHome(smartHome);
-        assertTrue(remoteControl2.getSmartHome() == null);
-        assertEquals(smartHome, remoteControl1.getSmartHome());
         assertTrue(remoteControl1.getCommands().containsKey(EMPTY));
         assertTrue(remoteControl1.getCommands().containsKey(ACTIVATE_ALARM));
         assertTrue(remoteControl1.getCommands().containsKey(CLOSE_HALL_DOOR));
@@ -39,7 +40,6 @@ public class StandardRemoteControlTest {
         assertTrue(remoteControl1.getCommands().containsKey(HOME_LIGHTS_ON));
         assertTrue(remoteControl1.getCommands().containsKey(HOME_LIGHTS_OFF));
         assertTrue(remoteControl1.getCommands().containsKey(INVOKE_ALERT_ALARM));
-        assertTrue(remoteControl1.getSmartHome().getRemoteControls().containsKey(remoteControl1.getID()));
     }
 
     @Test

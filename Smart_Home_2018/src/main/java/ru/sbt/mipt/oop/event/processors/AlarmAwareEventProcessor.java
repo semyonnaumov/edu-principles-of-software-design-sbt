@@ -2,7 +2,7 @@ package ru.sbt.mipt.oop.event.processors;
 
 import ru.sbt.mipt.oop.event.utilities.SensorEvent;
 import ru.sbt.mipt.oop.event.utilities.SensorEventType;
-import ru.sbt.mipt.oop.home_components.SmartHome;
+import ru.sbt.mipt.oop.home.component.SmartHome;
 
 public class AlarmAwareEventProcessor implements EventProcessor {
     private EventProcessor wrappedEventProcessor;

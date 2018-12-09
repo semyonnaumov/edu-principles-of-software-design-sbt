@@ -1,7 +1,7 @@
 package ru.sbt.mipt.oop.event.utilities;
 
 import ru.sbt.mipt.oop.event.processors.EventProcessor;
-import ru.sbt.mipt.oop.home_components.SmartHome;
+import ru.sbt.mipt.oop.home.component.SmartHome;
 
 
 public abstract class EventManager {

@@ -1,7 +1,7 @@
 package ru.sbt.mipt.oop.loaders;
 
 import com.google.gson.Gson;
-import ru.sbt.mipt.oop.home_components.SmartHome;
+import ru.sbt.mipt.oop.home.component.SmartHome;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -15,7 +15,7 @@ public class FileSmartHomeLoader implements SmartHomeLoader {
     }
 
     public FileSmartHomeLoader() {
-        this("smart-home.json");
+        this("src/main/resources/smart-home.json");
     }
 
     @Override

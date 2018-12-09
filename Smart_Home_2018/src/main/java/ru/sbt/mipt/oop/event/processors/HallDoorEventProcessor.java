@@ -2,9 +2,9 @@ package ru.sbt.mipt.oop.event.processors;
 
 import ru.sbt.mipt.oop.action.LightsOffAction;
 import ru.sbt.mipt.oop.event.utilities.SensorEvent;
-import ru.sbt.mipt.oop.home_components.Door;
-import ru.sbt.mipt.oop.home_components.Room;
-import ru.sbt.mipt.oop.home_components.SmartHome;
+import ru.sbt.mipt.oop.home.component.Door;
+import ru.sbt.mipt.oop.home.component.Room;
+import ru.sbt.mipt.oop.home.component.SmartHome;
 
 import static ru.sbt.mipt.oop.event.utilities.SensorEventType.DOOR_CLOSED;
 
@@ -15,7 +15,6 @@ public class HallDoorEventProcessor implements EventProcessor {
             return;
         }
 
-        //TODO Add test
         smartHome.executeAction(object -> {
             if (object instanceof Room) {
                 Room room = (Room) object;
@@ -33,13 +32,4 @@ public class HallDoorEventProcessor implements EventProcessor {
             }
         });
     }
-
-//    private void turnLightsOff(SmartHome smartHome) {
-//        smartHome.executeAction(object -> {
-//            if (object instanceof Light) {
-//                Light light = (Light) object;
-//                light.setOn(false);
-//            }
-//        });
-//    }
 }

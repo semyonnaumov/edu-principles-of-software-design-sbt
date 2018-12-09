@@ -1,7 +1,7 @@
 package ru.sbt.mipt.oop.controls.remote;
 
 import ru.sbt.mipt.oop.command.*;
-import ru.sbt.mipt.oop.home_components.SmartHome;
+import ru.sbt.mipt.oop.home.component.SmartHome;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -9,18 +9,18 @@ import static ru.sbt.mipt.oop.command.CommandType.*;
 
 public class StandardRemoteControl implements RemoteControl {
     private final String[] buttonIDs = {"A", "B", "C", "D", "1", "2", "3", "4"};
-    private Integer ID;
-    private SmartHome smartHome = null;
+    private String ID;
+    //private SmartHome smartHome = null;
     private Map<CommandType, Command> commands = null;
     private Map<String, Button> buttons = null;
 
-    public StandardRemoteControl(Integer ID) {
+    public StandardRemoteControl(String ID) {
         this.ID = ID;
     }
-    @Override
-    public SmartHome getSmartHome() {
-        return smartHome;
-    }
+//    @Override
+//    public SmartHome getSmartHome() {
+//        return smartHome;
+//    }
     @Override
     public Map<CommandType, Command> getCommands() {
         return commands;
@@ -32,13 +32,13 @@ public class StandardRemoteControl implements RemoteControl {
     }
 
     @Override
-    public Integer getID() {
+    public String getID() {
         return ID;
     }
 
     @Override
     public void bindToSmartHome(SmartHome smartHome) {
-        this.setSmartHome(smartHome);
+        //this.setSmartHome(smartHome);
         commands = new HashMap<>();
         commands.put(EMPTY, new EmptyCommand());
         commands.put(ACTIVATE_ALARM, new ActivateAlarmCommand(smartHome, 12345));
@@ -75,13 +75,13 @@ public class StandardRemoteControl implements RemoteControl {
     }
 
     private boolean readyToWork() {
-        if (buttons != null && smartHome != null && commands != null) {
+        if (buttons != null && /*smartHome != null &&*/ commands != null) {
             return true;
         }
         return false;
     }
 
-    private void setSmartHome(SmartHome smartHome) {
-        this.smartHome = smartHome;
-    }
+//    private void setSmartHome(SmartHome smartHome) {
+//        this.smartHome = smartHome;
+//    }
 }

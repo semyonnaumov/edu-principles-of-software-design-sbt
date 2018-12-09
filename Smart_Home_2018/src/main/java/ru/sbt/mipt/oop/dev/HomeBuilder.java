@@ -2,14 +2,11 @@ package ru.sbt.mipt.oop.dev;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import ru.sbt.mipt.oop.command.HomeLightsOffCommand;
-import ru.sbt.mipt.oop.controls.remote.RemoteControl;
-import ru.sbt.mipt.oop.controls.remote.StandardRemoteControl;
-import ru.sbt.mipt.oop.home_components.Door;
-import ru.sbt.mipt.oop.home_components.Light;
-import ru.sbt.mipt.oop.home_components.Room;
-import ru.sbt.mipt.oop.home_components.SmartHome;
-import ru.sbt.mipt.oop.home_components.alarm.Alarm;
+import ru.sbt.mipt.oop.home.component.Door;
+import ru.sbt.mipt.oop.home.component.Light;
+import ru.sbt.mipt.oop.home.component.Room;
+import ru.sbt.mipt.oop.home.component.SmartHome;
+import ru.sbt.mipt.oop.home.component.alarm.Alarm;
 
 import java.io.BufferedWriter;
 import java.io.IOException;

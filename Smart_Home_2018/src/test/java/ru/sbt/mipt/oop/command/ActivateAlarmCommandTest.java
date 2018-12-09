@@ -1,7 +1,7 @@
 package ru.sbt.mipt.oop.command;
 
 import org.junit.Test;
-import ru.sbt.mipt.oop.home_components.alarm.Alarm;
+import ru.sbt.mipt.oop.home.component.alarm.Alarm;
 
 import static org.junit.Assert.*;
 

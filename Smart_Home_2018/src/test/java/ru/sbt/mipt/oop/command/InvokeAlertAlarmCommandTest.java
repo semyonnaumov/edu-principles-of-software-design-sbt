@@ -1,17 +1,24 @@
 package ru.sbt.mipt.oop.command;
 
 import org.junit.Test;
-import ru.sbt.mipt.oop.home_components.alarm.Alarm;
-import ru.sbt.mipt.oop.home_components.alarm.AlarmActivatedState;
-import ru.sbt.mipt.oop.home_components.alarm.AlarmOnAlertState;
-import ru.sbt.mipt.oop.home_components.alarm.AlarmState;
+import ru.sbt.mipt.oop.home.component.SmartHome;
+import ru.sbt.mipt.oop.home.component.alarm.Alarm;
+import ru.sbt.mipt.oop.home.component.alarm.AlarmOnAlertState;
+import ru.sbt.mipt.oop.home.component.alarm.AlarmState;
+import ru.sbt.mipt.oop.loaders.FileSmartHomeLoader;
+import ru.sbt.mipt.oop.loaders.SmartHomeLoader;
+
+import java.io.IOException;
 
 import static org.junit.Assert.*;
 
 public class InvokeAlertAlarmCommandTest extends CommandTest {
 
     @Test
-    public void execute() {
+    public void execute() throws IOException {
+        String path = "src/test/resources/smart-home-test.json";
+        SmartHomeLoader smartHomeLoader = new FileSmartHomeLoader(path);
+        SmartHome initialSmartHome = smartHomeLoader.loadSmartHome();
         Command command = new InvokeAlertAlarmCommand(smartHome);
         assertFalse(command.execute());
 

@@ -11,7 +11,9 @@
         <constructor-arg ref="remoteControlRegistry"/>
     </bean>
 
-    <bean name="smartHomeLoader" class="ru.sbt.mipt.oop.loaders.FileSmartHomeLoader"/>
+    <bean name="smartHomeLoader" class="ru.sbt.mipt.oop.loaders.FileSmartHomeLoader">
+        <constructor-arg value="src/main/resources/smart-home.json"/>
+    </bean>
 
     <!--Default event manager-->
     <bean name="homeEventManager" class="ru.sbt.mipt.oop.event.utilities.HomeEventManager">

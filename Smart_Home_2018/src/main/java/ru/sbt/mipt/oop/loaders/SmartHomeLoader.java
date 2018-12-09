@@ -1,6 +1,6 @@
 package ru.sbt.mipt.oop.loaders;
 
-import ru.sbt.mipt.oop.home_components.SmartHome;
+import ru.sbt.mipt.oop.home.component.SmartHome;
 
 import java.io.IOException;
 

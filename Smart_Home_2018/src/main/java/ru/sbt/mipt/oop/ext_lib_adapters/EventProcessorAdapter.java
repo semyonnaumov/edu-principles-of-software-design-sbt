@@ -4,7 +4,7 @@ import com.coolcompany.smarthome.events.CCSensorEvent;
 import com.coolcompany.smarthome.events.EventHandler;
 import ru.sbt.mipt.oop.event.processors.EventProcessor;
 import ru.sbt.mipt.oop.event.utilities.SensorEvent;
-import ru.sbt.mipt.oop.home_components.SmartHome;
+import ru.sbt.mipt.oop.home.component.SmartHome;
 
 import static ru.sbt.mipt.oop.event.utilities.SensorEventType.*;
 
