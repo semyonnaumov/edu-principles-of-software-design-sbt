@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+ 		http://www.springframework.org/schema/beans
+ 		http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+
+    <bean name="application" class="ru.sbt.mipt.oop.Application">
+        <constructor-arg ref="smartHomeLoader"/>
+        <constructor-arg ref="ccEventManager"/>
+        <constructor-arg ref="remoteControlRegistry"/>
+    </bean>
+
+    <bean name="smartHomeLoader" class="ru.sbt.mipt.oop.loaders.FileSmartHomeLoader">
+        <constructor-arg value="src/main/resources/smart-home.json"/>
+    </bean>
+
+    <!--Default event manager-->
+    <bean name="homeEventManager" class="ru.sbt.mipt.oop.event.utilities.HomeEventManager">
+        <constructor-arg ref="sensorEventProvider"/>
+    </bean>
+
+    <bean name="sensorEventProvider" class="ru.sbt.mipt.oop.event.utilities.RandomSensorEventProvider"/>
+
+    <!--Adapter to event manager from external library-->
+    <bean name="ccEventManager" class="ru.sbt.mipt.oop.ext_lib_adapters.CCSensorEventManagerAdapter">
+        <constructor-arg ref="ccSensorEventManager"/>
+    </bean>
+
+    <!--Uncompatible external event manager-->
+    <bean name="ccSensorEventManager" class="com.coolcompany.smarthome.events.SensorEventsManager"/>
+
+    <bean name="remoteControlRegistry" class="com.coolcompany.smarthome.remote_control.RemoteControlRegistry"/>
+
+</beans>
