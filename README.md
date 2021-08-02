@@ -1,2 +1,2 @@
-# Principles_Of_Software_Design
+# Principles Of Software Design
 Repository for home assignments
