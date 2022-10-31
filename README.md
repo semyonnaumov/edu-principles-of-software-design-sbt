@@ -1,2 +1,2 @@
-# Principles Of Software Design
-Repository for home assignments
+# Software Design
+The collection of code for to practicing software design principles and patterns.
