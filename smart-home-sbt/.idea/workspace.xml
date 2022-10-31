@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9bab8cd0-42f1-4172-932a-c57646947698" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -22,129 +26,6 @@
     </option>
     <expand />
     <select />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1789630179">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.35" value="1" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="2" />
-          <entry key="xml" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="2" />
-          <entry key="XML" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.vcs.git.usages">
-        <counts>
-          <entry key="git.branch.rebase" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="-1236942538">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="33" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="3" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.14" value="2" />
-          <entry key="project.open.time.16" value="2" />
-          <entry key="project.open.time.2" value="3" />
-          <entry key="project.open.time.21" value="1" />
-          <entry key="project.open.time.28" value="1" />
-          <entry key="project.open.time.29" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.30" value="1" />
-          <entry key="project.open.time.31" value="1" />
-          <entry key="project.open.time.33" value="1" />
-          <entry key="project.open.time.34" value="1" />
-          <entry key="project.open.time.35" value="2" />
-          <entry key="project.open.time.37" value="1" />
-          <entry key="project.open.time.39" value="1" />
-          <entry key="project.open.time.41" value="1" />
-          <entry key="project.open.time.47" value="1" />
-          <entry key="project.open.time.58" value="2" />
-          <entry key="project.open.time.72" value="1" />
-          <entry key="project.open.time.77" value="1" />
-          <entry key="project.open.time.78" value="1" />
-          <entry key="project.open.time.81" value="1" />
-          <entry key="project.opened" value="33" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="3" />
-          <entry key="iml" value="6" />
-          <entry key="java" value="551" />
-          <entry key="js" value="11" />
-          <entry key="json" value="26" />
-          <entry key="md" value="1" />
-          <entry key="properties" value="1" />
-          <entry key="smart-home-test" value="2" />
-          <entry key="xml" value="18" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="3" />
-          <entry key="IDEA_MODULE" value="6" />
-          <entry key="JAVA" value="551" />
-          <entry key="JSON" value="26" />
-          <entry key="JavaScript" value="11" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Properties" value="1" />
-          <entry key="XML" value="20" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="46" />
-          <entry key="java" value="15252" />
-          <entry key="js" value="172" />
-          <entry key="json" value="201" />
-          <entry key="xml" value="501" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="15252" />
-          <entry key="JSON" value="201" />
-          <entry key="JavaScript" value="172" />
-          <entry key="PLAIN_TEXT" value="46" />
-          <entry key="XML" value="501" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.vcs.git.usages">
-        <counts>
-          <entry key="git.branch.compare" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/mipt/oop/home/component/alarm/Alarm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -239,12 +120,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -278,6 +155,7 @@
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectId" id="2GuObxi04kamDlzf4TyDYwjq9UN" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -319,13 +197,19 @@
       </pane>
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value=";&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="ru.sbt.mipt.oop.command.CommandTest" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="go.formatter.settings.were.checked" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -367,25 +251,13 @@
       <recent name="ru.sbt.mipt.oop" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.LightsEventProcessorTest">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.sbt.mipt.oop.Application" />
-      <module name="smart-home" />
+  <component name="RunManager" selected="Application.Sample">
+    <configuration name="Sample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coolcompany.smarthome.sample.Sample" />
+      <module name="smart-home-sbt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.sbt.mipt.oop.*" />
+          <option name="PATTERN" value="com.coolcompany.smarthome.sample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -394,7 +266,7 @@
       </method>
     </configuration>
     <configuration name="DoorEventProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="smart-home" />
+      <module name="smart-home-sbt" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.sbt.mipt.oop.event.processors.*" />
@@ -403,12 +275,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.sbt.mipt.oop.event.processors" />
       <option name="MAIN_CLASS_NAME" value="ru.sbt.mipt.oop.event.processors.DoorEventProcessorTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="HallDoorEventProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="smart-home" />
+      <module name="smart-home-sbt" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.sbt.mipt.oop.event.processors.*" />
@@ -417,12 +290,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.sbt.mipt.oop.event.processors" />
       <option name="MAIN_CLASS_NAME" value="ru.sbt.mipt.oop.event.processors.HallDoorEventProcessorTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="HomeEventManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="smart-home" />
+      <module name="smart-home-sbt" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.sbt.mipt.oop.event.utilities.*" />
@@ -431,12 +305,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.sbt.mipt.oop.event.utilities" />
       <option name="MAIN_CLASS_NAME" value="ru.sbt.mipt.oop.event.utilities.HomeEventManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="LightsEventProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="smart-home" />
+      <module name="smart-home-sbt" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.sbt.mipt.oop.event.processors.*" />
@@ -445,29 +320,41 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.sbt.mipt.oop.event.processors" />
       <option name="MAIN_CLASS_NAME" value="ru.sbt.mipt.oop.event.processors.LightsEventProcessorTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Application" />
       <item itemvalue="JUnit.HomeEventManagerTest" />
       <item itemvalue="JUnit.DoorEventProcessorTest" />
       <item itemvalue="JUnit.HallDoorEventProcessorTest" />
       <item itemvalue="JUnit.LightsEventProcessorTest" />
+      <item itemvalue="Application.Sample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sample" />
         <item itemvalue="JUnit.LightsEventProcessorTest" />
         <item itemvalue="JUnit.HallDoorEventProcessorTest" />
         <item itemvalue="JUnit.DoorEventProcessorTest" />
         <item itemvalue="JUnit.HomeEventManagerTest" />
-        <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <created>1667235078696</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667235078696</updated>
+      <workItem from="1667235080277" duration="438000" />
+    </task>
+    <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="HomeLightsOffCommandTest_execute - 2018.12.09 at 13h 35m 55s.xml">
@@ -561,10 +448,7 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="version" value="3" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">

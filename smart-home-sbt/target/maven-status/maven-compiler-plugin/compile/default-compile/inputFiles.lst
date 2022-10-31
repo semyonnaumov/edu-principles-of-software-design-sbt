@@ -1,50 +1,50 @@
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\controls\remote\RemoteControl.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\action\DoorsCloseAction.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\command\CloseHallDoorCommand.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\loaders\SmartHomeLoader.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\home\component\SmartHome.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\loaders\FileSmartHomeLoader.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\home\component\Room.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\command\EmptyCommand.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\home\component\alarm\AlarmState.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\action\ActionExecutor.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\action\DoorsOpenAction.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\com\coolcompany\smarthome\sample\Sample.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\home\component\Light.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\controls\remote\Button.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\com\coolcompany\smarthome\events\SensorEventsManager.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\command\HomeLightsOffCommand.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\command\Command.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\com\coolcompany\smarthome\events\CCSensorEvent.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\controls\remote\StandardRemoteControl.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\ext_lib_adapters\EventProcessorAdapter.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\command\HallLightsOnCommand.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\event\processors\EventProcessor.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\home\component\alarm\AlarmOnAlertState.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\command\InvokeAlertAlarmCommand.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\home\component\alarm\AlarmDeactivatedState.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\command\CommandType.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\event\processors\LightsEventProcessor.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\action\LightsOnAction.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\action\LightsOffAction.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\ext_lib_adapters\CCSensorEventManagerAdapter.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\com\coolcompany\smarthome\remote_control\RemoteControlRegistry.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\event\processors\AlarmEventProcessor.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\event\utilities\RandomSensorEventProvider.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\Application.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\event\utilities\SensorEventType.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\home\component\alarm\Alarm.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\home\component\alarm\AlarmActivatedState.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\command\ActivateAlarmCommand.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\event\utilities\HomeEventManager.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\command\HomeLightsOnCommand.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\event\utilities\SensorEvent.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\com\coolcompany\smarthome\events\EventHandler.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\home\component\Door.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\event\processors\DoorEventProcessor.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\event\utilities\SensorEventProvider.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\event\processors\HallDoorEventProcessor.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\dev\HomeBuilder.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\event\processors\AlarmAwareEventProcessor.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\action\Action.java
-C:\Users\Naumov\Documents\GitHub\Principles_Of_Software_Design\Smart_Home_2018\src\main\java\ru\sbt\mipt\oop\event\utilities\EventManager.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/controls/remote/StandardRemoteControl.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/event/utilities/HomeEventManager.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/loaders/FileSmartHomeLoader.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/home/component/alarm/AlarmActivatedState.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/event/processors/EventProcessor.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/com/coolcompany/smarthome/events/EventHandler.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/command/EmptyCommand.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/command/HomeLightsOnCommand.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/home/component/Room.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/controls/remote/RemoteControl.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/action/DoorsCloseAction.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/Application.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/ext_lib_adapters/EventProcessorAdapter.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/command/InvokeAlertAlarmCommand.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/action/DoorsOpenAction.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/event/utilities/SensorEventProvider.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/event/processors/DoorEventProcessor.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/event/processors/HallDoorEventProcessor.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/event/processors/AlarmAwareEventProcessor.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/controls/remote/Button.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/command/ActivateAlarmCommand.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/command/Command.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/action/ActionExecutor.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/command/CommandType.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/com/coolcompany/smarthome/remote_control/RemoteControlRegistry.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/loaders/SmartHomeLoader.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/event/utilities/SensorEventType.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/com/coolcompany/smarthome/sample/Sample.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/action/LightsOffAction.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/ext_lib_adapters/CCSensorEventManagerAdapter.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/event/processors/LightsEventProcessor.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/home/component/alarm/AlarmState.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/event/utilities/SensorEvent.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/home/component/Light.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/action/LightsOnAction.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/com/coolcompany/smarthome/events/SensorEventsManager.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/com/coolcompany/smarthome/events/CCSensorEvent.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/home/component/SmartHome.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/action/Action.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/command/HomeLightsOffCommand.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/home/component/alarm/AlarmDeactivatedState.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/event/processors/AlarmEventProcessor.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/event/utilities/RandomSensorEventProvider.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/home/component/alarm/AlarmOnAlertState.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/command/CloseHallDoorCommand.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/event/utilities/EventManager.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/command/HallLightsOnCommand.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/home/component/alarm/Alarm.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/dev/HomeBuilder.java
+/Users/snaumov/Desktop/Root/Projects/Software Design/edu-software-design/smart-home-sbt/src/main/java/ru/sbt/mipt/oop/home/component/Door.java

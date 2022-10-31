@@ -1,2 +1,2 @@
 # Software Design
-The collection of code for to practicing software design principles and patterns.
+The collection of code for practicing software design principles and patterns.
